@@ -159,7 +159,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-7 position-absolute inicioEti">
-                                <h1><b>BEECAPITAL te ofrece de</b></h1>
+                                <h1><b>Inusual Software te ofrece de</b></h1>
                                 <h1><b>manera rápida y sencilla</b></h1><br>
                                 <h4><i>Préstamos personales diseñados</i></h4>
                                 <h4><i>especialmente para ti.</i></h4><br>
@@ -397,7 +397,7 @@
                     <div class="col-6 mainAcercade">
                         <h4><b>Acerca de</b></h1>
                         <p>
-                            En BEECAPITAL somos una solución y sabemos que un gran futuro es consecuencia de un gran 
+                            En Inusual Software somos una solución y sabemos que un gran futuro es consecuencia de un gran 
                             esfuerzo es por eso que ofrecemos atención personalizada de ejecutivos profesionalmente capacitados 
                             para todos nuestros clientes con el objetivo de brindar el mejor servicio y ampliar las opciones de financiamiento.
                         </p>
@@ -424,7 +424,7 @@
                         <div class="row">
                             <center>
                                 <p>
-                                    Con BeeCapital puedes acceder a créditos con montos de préstamo más altos.
+                                    Con Inusual Software puedes acceder a créditos con montos de préstamo más altos.
                                 </p>
                             </center>
                         </div>
@@ -544,7 +544,7 @@
 
                 </div>
                 <div class="row">
-                    <center><p><b>@ 2020 hecho para "". Creado en <a href="https://inusualsoftware.com/">Inusual Software</a></b></p></center>
+                    <center><p><b>@ 2022 hecho para "". Creado en <a href="https://inusualsoftware.com/">Inusual Software</a></b></p></center>
                 </div>
             </div>
         </footer>
