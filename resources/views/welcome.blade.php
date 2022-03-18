@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>YEEKA</title>
         <link rel="shortcut icon" href="icon1.ico">
         <!-- Scripts -->
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
@@ -71,10 +71,13 @@
             }
             .cardInicio{
                 padding-top: 50px;
-                left: 60%;
+                /*left: 60%;*/
                 background: #1e88e5;
                 opacity: 90%;
                 color: white;
+                right: 10%;
+                left: 5%;
+                width: 100%;
             }
             .mensajeForm{
                 color: black;
@@ -89,6 +92,7 @@
             .inicioEti{
                 text-shadow: 0.1em 0.1em 0.05em #333;
                 padding-top: 150px;
+                padding-bottom: 50px;
                 color: white;
             }
             .centrar{
@@ -152,7 +156,7 @@
                 background: #eeeeee;
             }
             .imgCarusel{
-                height: 620px;
+                height: 650px;
             }
         </style>
     </head>
@@ -167,12 +171,14 @@
         </div>-->
         
         <nav class="navbar navbar-expand-lg bg fixed-top">
-            <a class="navbar-brand" href="#inicio" style="padding-left: 100px;">
+            <a class="navbar-brand" href="#inicio" style="padding-left: 10%;">
                 <img src="/storage/logo.jpeg" alt="" width="110" height="110">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSecciones" 
             aria-controls="navbarSecciones" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg>
             </button>
             <div class="collapse navbar-collapse" id="navbarSecciones">
                 <ul class="navbar-nav ms-auto order-0">
@@ -217,7 +223,8 @@
                     </div>
                     <div class="container">
                         <div class="row">
-                            <div class="col-xl-7 col-sm-7 col-md-7 col-lg-7 col-xs-12 position-absolute inicioEti">
+                            <div class="d-none d-sm-block d-xs-block col-xl-7 col-lg-7 col-md-7 col-sm-7 col-xs-12 inicioEti">
+                            <!--class="col-xl-7 col-sm-7 col-md-7 col-lg-7 col-xs-12 inicioEti">-->
                                 <h1><b>YEEKA te ofrece de</b></h1>
                                 <h1><b>manera rápida y sencilla</b></h1><br>
                                 <h4><i>Préstamos personales diseñados</i></h4>
@@ -225,8 +232,8 @@
                                 <h1></h1>
                                 <a href="#servicios" class="btn btn-primary btn-lg">Nuestros Servicios</a>
                             </div>
-                            <div class="col-xl-4 col-sm-4 col-md-4 col-lg-4 col-xs-12">
-                                <div class="card position-absolute col-4 cardInicio">
+                            <div class="col-xl-5 col-sm-5 col-md-5 col-lg-5 col-xs-12">
+                                <div class="card cardInicio">
                                     <center><h4><b>¡Tú próximo crédito está aquí!</b></h4></center>
                                     <div class="card-body">
                                         <form action="">
@@ -257,7 +264,7 @@
                                                 <label for="mensaje">Mensaje</label>
                                             </div>
                                             <br>
-                                            <button type="submit" class="btn btn-primary center btn-lg enviar-mensaje negro">Enviar mensaje</button>
+                                            <button type="submit" class="btn btn-primary center btn-lg negro">Enviar mensaje</button>
                                         </form>
                                     </div>
                                 </div>
@@ -581,8 +588,11 @@
             <div class="container ">
                 <div class="row ">
                     <div class="col-12">
-                        <div id="map"></div>
-                        
+                        <!--<div id="map"></div>-->
+                        <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15050.651302952585!2d-99.171834!3d19.426969!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff4bc012495f%3A0xb2bca11c3593650e!2sC.%20R%C3%ADo%20Lerma%20232%2C%20Cuauht%C3%A9moc%2C%2054076%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1647555049447!5m2!1ses-419!2smx" 
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                        </iframe>
                     </div>
                 </div>
             </div>
@@ -594,7 +604,7 @@
             <div class="container">
                 <h4 class="centrar negro">¿Por qué solicitar tu crédito con YEEKA Solución Global?</h4>
                 <div class="row">
-                    <div class="col-2">
+                    <div class="col-xl-2 col-sm-2 col-md-2 col-lg-2 col-xs-12 centrar">
                         <div class="row">
                             <svg xmlns="http://www.w3.org/2000/svg" 
                             width="120" height="100" fill="currentColor" class="bi bi-building" viewBox="0 0 16 16">
@@ -606,7 +616,7 @@
                             Con YEEKA puedes acceder a créditos con montos de préstamo más altos.
                         </div>
                     </div>
-                    <div class="col-2 centrar">
+                    <div class="d-none d-sm-block d-xs-block col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-12 centrar">
                         <div class="row">
                             <svg xmlns="http://www.w3.org/2000/svg" 
                             width="120" height="100" fill="currentColor" class="bi bi-bar-chart-line-fill" viewBox="0 0 16 16">
@@ -617,7 +627,7 @@
                             Te ofrecemos tasas de interés flexibles y competitivas.
                         </div>
                     </div>
-                    <div class="col-3 centrar">
+                    <div class="d-none d-sm-block d-xs-block col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-12 centrar">
                         <div class="row">
                             <svg xmlns="http://www.w3.org/2000/svg" 
                             width="120" height="100" fill="currentColor" class="bi bi-clock-history" viewBox="0 0 16 16">
@@ -630,7 +640,7 @@
                             Contamos con el servicio más rápido. Te resolvemos en menos de 24 horas.
                         </div>
                     </div>
-                    <div class="col-3 centrar">
+                    <div class="d-none d-sm-block d-xs-block col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-12 centrar">
                         <div class="row">
                             <svg xmlns="http://www.w3.org/2000/svg" 
                             width="120" height="100" fill="currentColor" class="bi bi-shield-lock" viewBox="0 0 16 16">
@@ -642,7 +652,7 @@
                             Al ser una empresa líder en nuestra categoría, tendrás la mayor seguridad al tramitar tu crédito.
                         </div>
                     </div>
-                    <div class="col-2 centrar">
+                    <div class="d-none d-sm-block d-xs-block col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-12 centrar">
                         <div class="row">
                             <svg xmlns="http://www.w3.org/2000/svg" 
                             width="120" height="100" fill="currentColor" class="bi bi-calendar2-week-fill" viewBox="0 0 16 16">
@@ -764,6 +774,9 @@
             tl.from(".bg", {x: "-100%", opacity: 0})
             .from("p", {opacity: 0}, "-=0.3")
             .from("h1", {opacity: 0, y: "30px"}, "-=0.3")
+            .from("h4", {opacity: 0, y: "30px"}, "-=0.3")
+            .from("i", {opacity: 0, y: "30px"}, "-=0.3")
+            .from("a", {opacity: 0, y: "30px"}, "-=0.3")
             .from("button", {opacity: 0, y: "-40px"}, "-=0.8")
             .from("img", {opacity: 0}, "-=0.3")
             //--------------------------GOOGLE MAPS------------------------
