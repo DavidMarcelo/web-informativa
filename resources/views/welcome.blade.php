@@ -457,27 +457,32 @@
         <section id="acercade" style="background: #fff9c4;">
             <h1 class="centrar"><b>Acerca de </b></h1>
             <div class="container" >
+
                 <div class="row">
-                    <div class="col-2"></div>
-                    <div class="col-8 centrar">
+                    <div class="d-none d-sm-block d-xs-block col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-12"></div>
+                    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12 centrar">
                         <h1>¿Porque YEEKA Solción Global Es Tu Mejor Opción?</h1>
                     </div>
-                    <div class="col-2"></div>
+                    <div class="d-none d-sm-block d-xs-block col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-12"></div>
                 </div>
+
+
                 <div class="row">
-                    <div class="col-3"></div>
-                    <div class="col-6 centrar">
+                    <div class="d-none d-sm-block d-xs-block col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-12"></div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 centrar">
                         <p>
                             Somos expertos en gestión de préstamos personales 
                             y empresariales, con más de 20 años de experiencia 
                             en el campo financiero.
                         </p>
                     </div>
-                    <div class="col-3"></div>
+                    <div class="d-none d-sm-block d-xs-block col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-12"></div>
                 </div>
+
+
                 <div class="row">
-                    <div class="col-3"></div>
-                    <div class="col-6 centrar">
+                    <div class="d-none d-sm-block d-xs-block col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-12"></div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 centrar">
                         <p>
                             <b>
                                 Gracias a nuestros convenios con diferentes 
@@ -487,10 +492,12 @@
                             </b>
                         </p>
                     </div>
-                    <div class="col-3"></div>
+                    <div class="d-none d-sm-block d-xs-block col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-12"></div>
                 </div>
+
+
                 <div class="row">
-                    <div class="col-4 centrar">
+                    <div class="d-none d-sm-block d-xs-block col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12 centrar">
                         <div class="row">
                             <svg xmlns="http://www.w3.org/2000/svg"
                              width="100" height="80" fill="currentColor" class="bi bi-currency-exchange" viewBox="0 0 16 16">
@@ -507,7 +514,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-4 centrar">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 centrar">
                         <div class="row">
                             <svg xmlns="http://www.w3.org/2000/svg" 
                             width="100" height="80" fill="currentColor" class="bi bi-bank" viewBox="0 0 16 16">
@@ -523,7 +530,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-4 centrar">
+                    <div class="d-none d-sm-block d-xs-block col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12 centrar">
                         <div class="row">
                             <svg xmlns="http://www.w3.org/2000/svg" 
                             width="100" height="80" fill="currentColor" class="bi bi-cash-coin" viewBox="0 0 16 16">
@@ -548,7 +555,7 @@
             </div>
             
             <div class="container">
-                <div class="row acercade">
+                <div class="row acercade centrar">
                     <div class="col-xl-5 col-sm-5 col-md-5 col-lg-5 col-xs-12">
                         <img 
                         src="https://lirp.cdn-website.com/a31a0d06/dms3rep/multi/opt/prestamos-comercial-4c76f3bf-447w.jpg" alt=""
