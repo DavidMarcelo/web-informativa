@@ -152,7 +152,7 @@
                 transition: 1s ease;
             }
             nav{
-                opacity: 90%;
+                /*opacity: 90%;*/
                 background: #eeeeee;
             }
             .imgCarusel{
@@ -161,6 +161,7 @@
         </style>
     </head>
     <body class="antialiased">
+        
         <!--<div class="btnDerecha">
             <button class="btn btn-success btn-circle btn-lg fixed btnCircleIzq" >
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
@@ -273,14 +274,15 @@
 
 
 
-                            
-                            <button class="btn btn-circle btn-lg fixed btnCircleIzq" >
+                            <a href="https://walink.co/8846d7" class="btn btn-circle btn-lg fixed btnCircleIzq">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" 
                                 class="bi bi-whatsapp" viewBox="0 0 16 16">
                                     <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
                                 </svg>
                                 <b>Chatea con nosotros</b>
-                            </button>
+                            </a>
+                            <!--<button class="btn btn-circle btn-lg fixed btnCircleIzq" >
+                            </button>-->
                             <!--<button class="btn btn-danger btn-circle btn-lg fixed btnCircleDer" 
                             data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-dots-fill" viewBox="0 0 16 16">
@@ -578,8 +580,11 @@
                     <center><h3><b>¿Quiénes somos?</b></h3></center>
                 </div>
                 <div class="row">
-                    <div class="col"><img class="shrink" 
-                    src="https://lirp.cdn-website.com/a31a0d06/dms3rep/multi/opt/Time-line-e0f099dc-a025828b-1243w.png" width="100%"></div>
+                    <div class="col-12">
+                        <img src="storage/linea.jpg" class="shrink" style="width: 100%;">
+                        <!--<img class="shrink" 
+                    src="https://lirp.cdn-website.com/a31a0d06/dms3rep/multi/opt/Time-line-e0f099dc-a025828b-1243w.png" width="100%">-->
+                    </div>
                 </div>
             </div>
             <div class="container">
@@ -673,7 +678,60 @@
                 </div>
             </div>
         </section>
-        
+        <footer class="d-none d-sm-block d-xs-block  col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 centrar" >
+            <div class="container">
+                <div class="row">
+                    <h2>TÉRMINOS Y CONDICIONES</h2>
+                    <div class="col-4 centrar">
+                        <h3>DEL USO DEL SITIO</h3>
+
+                        <p style="text-align: justify;">
+                            Los servicios y contenido de este sitio web, son exclusiva responsabilidad del 
+                            usuario, quien debe hacer uso de ellos acorde a las funcionalidades permitidas 
+                            en el propio sitio y a los usos autorizados en los presentes Términos y 
+                            Condiciones de Uso y Privacidad, por lo que el Usuario se obliga a utilizarlos 
+                            de modo tal que no atenten contra las normas de uso y convivencia en Internet, 
+                            las leyes de los Estados Unidos Mexicanos y la legislación vigente en el país 
+                            en que el usuario se encuentre al usarlos, las buenas costumbres, la dignidad de 
+                            la persona y los derechos de terceros.
+                        </p>
+                    </div>
+
+                    <div class="col-4 centrar">
+                        <h3>DE LA CALIDAD DEL CONTENIDO</h3>
+                        
+
+                        <p style="text-align: justify;">
+                            Yeekka Soluciones, no será responsable de cualquier daño o perjuicio que sufra 
+                            el usuario a consecuencia de inexactitudes, consultas realizadas, mal 
+                            entendimiento del usuario, asesorías, errores tipográficos y cambios o mejoras 
+                            que se realicen a los servicios, contratos y  contenidos. Las recomendaciones y 
+                            ejemplos son de naturaleza informativa y general, por lo que no deben tomarse 
+                            en cuenta en la toma de decisiones personales ni profesionales. Para ello se debe 
+                            consultar a un profesional apropiado que pueda asesorar al usuario de acuerdo 
+                            con sus necesidades específicas. El usuario acepta y reconoce que Yeekka 
+                            Soluciones no ha realizado ninguna solicitud, ofrecimiento o promoción para la 
+                            captación de bienes o servicios, según dicho concepto está previsto en la Ley de 
+                            Instituciones de Crédito, mediante el Portal o cualquier otro medio.
+                        </p>
+                    </div>
+
+                    <div class="col-4 centrar">
+                        <h3>DE LA CONFIDENCIALIDAD</h3>
+
+                        <p style="text-align: justify;">
+                            Yeekka Soluciones, se compromete a mantener confidencial la información que 
+                            reciba del usuario conforme a las disposiciones legales aplicables, en los 
+                            Estados Unidos Mexicanos. Yeekka Soluciones no asume ninguna obligación de 
+                            mantener confidencial cualquier otra información que el usuario proporcione 
+                            en los chats, formularios o vía telefónica.
+                        </p>
+                    </div>
+
+
+                </div>
+            </div>
+        </footer>
         
         <!--
         <footer class="text-center text-lg-start bg-light text-muted">
