@@ -678,7 +678,8 @@
                 </div>
             </div>
         </section>
-        <footer class="d-none d-sm-block d-xs-block  col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 centrar" >
+        <footer class="d-none d-sm-block d-xs-block  col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 centrar" 
+            style="color: white; background: #757575">
             <div class="container">
                 <div class="row">
                     <!--<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
