@@ -173,7 +173,7 @@
         
         <nav class="navbar navbar-expand-lg bg fixed-top">
             <a class="navbar-brand" href="#inicio" style="padding-left: 10%;">
-                <img src="/storage/logo.jpeg" alt="" width="110" height="110">
+                <img src="{{asset('logo.jpeg')}}" alt="" width="110" height="110">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSecciones" 
             aria-controls="navbarSecciones" aria-expanded="false" aria-label="Toggle navigation">
