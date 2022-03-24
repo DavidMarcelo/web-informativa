@@ -173,7 +173,7 @@
         
         <nav class="navbar navbar-expand-lg bg fixed-top">
             <a class="navbar-brand" href="#inicio" style="padding-left: 10%;">
-                <img src="/storage/logo.jpeg" alt="" width="110" height="110">
+                <img src="{{asset('logo.jpeg')}}" alt="" width="110" height="110">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSecciones" 
             aria-controls="navbarSecciones" aria-expanded="false" aria-label="Toggle navigation">
@@ -581,7 +581,7 @@
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <img src="storage/linea.jpg" class="shrink" style="width: 100%;">
+                        <img src="{{asset('linea.jpg')}}" class="shrink" style="width: 100%;">
                         <!--<img class="shrink" 
                     src="https://lirp.cdn-website.com/a31a0d06/dms3rep/multi/opt/Time-line-e0f099dc-a025828b-1243w.png" width="100%">-->
                     </div>
