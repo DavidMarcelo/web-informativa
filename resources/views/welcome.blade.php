@@ -151,8 +151,10 @@
                 transform: scale(0.8);
                 transition: 1s ease;
             }
+            .op{
+                opacity: 90%;
+            }
             nav{
-                /*opacity: 90%;*/
                 background: #eeeeee;
             }
             .imgCarusel{
@@ -171,7 +173,7 @@
             </button>
         </div>-->
         
-        <nav class="navbar navbar-expand-lg bg fixed-top">
+        <nav class="navbar navbar-expand-lg bg fixed-top op">
             <a class="navbar-brand" href="#inicio" style="padding-left: 10%;">
                 <img src="{{asset('logo.jpeg')}}" alt="" width="110" height="110">
             </a>
@@ -196,10 +198,10 @@
                         <a class="nav-link" href="#ubicanos">Ubicanos</a>
                     </li>
                 </ul>
-                <div class="d-flex ms-auto order-5" style="padding-right: 100px;">
-                    <span class="navbar-text navLlamar">
+                <div class="d-flex ms-auto order-5 op" style="padding-right: 100px;">
+                    <span class="navbar-text navLlamar op">
                         <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" 
-                            class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                            class="bi bi-telephone-fill op" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
                         </svg>
                         llamar al (55) 2484-6474
@@ -580,7 +582,7 @@
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <img src="{{asset('linea.jpg')}}" class="shrink" style="width: 100%;">
+                        <img src="{{asset('linea.png')}}" class="shrink" style="width: 100%;">
                         <!--<img class="shrink" 
                     src="https://lirp.cdn-website.com/a31a0d06/dms3rep/multi/opt/Time-line-e0f099dc-a025828b-1243w.png" width="100%">-->
                     </div>
@@ -677,8 +679,8 @@
                 </div>
             </div>
         </section>
-        <footer class="d-none d-sm-block d-xs-block  col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 centrar" 
-            style="color: white; background: #757575">
+        <!--<footer class="d-none d-sm-block d-xs-block  col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 centrar" -->
+         <footer style="color: white; background: #757575" class="centrar">
             <div class="container">
                 <div class="row">
                     <!--<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -733,7 +735,7 @@
                         </button>
                     </div>-->
                     <h2>TÉRMINOS Y CONDICIONES</h2>
-                    <div class="col-4 centrar">
+                    <div class="d-none d-sm-block col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
                         <h3>DEL USO DEL SITIO</h3>
 
                         <p style="text-align: justify;">
@@ -748,7 +750,7 @@
                         </p>
                     </div>
 
-                    <div class="col-4 centrar">
+                    <div class="d-none d-sm-block col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
                         <h3>DE LA CALIDAD DEL CONTENIDO</h3>
                         
 
@@ -767,7 +769,8 @@
                         </p>
                     </div>
 
-                    <div class="col-4 centrar">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <!--class="col-4 centrar">-->
                         <h3>DE LA CONFIDENCIALIDAD</h3>
 
                         <p style="text-align: justify;">
