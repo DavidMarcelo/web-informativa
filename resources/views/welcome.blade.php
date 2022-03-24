@@ -678,9 +678,61 @@
                 </div>
             </div>
         </section>
-        <footer class="d-none d-sm-block d-xs-block  col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 centrar" >
+        <footer class="d-none d-sm-block d-xs-block  col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 centrar" 
+            style="color: white; background: #757575">
             <div class="container">
                 <div class="row">
+                    <!--<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="public/fond.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">DEL USO DEL SITIO</h5>
+                                            <p style="text-align: justify;">
+                                                Los servicios y contenido de este sitio web, son exclusiva responsabilidad del 
+                                                usuario, quien debe hacer uso de ellos acorde a las funcionalidades permitidas 
+                                                en el propio sitio y a los usos autorizados en los presentes Términos y 
+                                                Condiciones de Uso y Privacidad, por lo que el Usuario se obliga a utilizarlos 
+                                                de modo tal que no atenten contra las normas de uso y convivencia en Internet, 
+                                                las leyes de los Estados Unidos Mexicanos y la legislación vigente en el país 
+                                                en que el usuario se encuentre al usarlos, las buenas costumbres, la dignidad de 
+                                                la persona y los derechos de terceros.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="..." class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Second slide label</h5>
+                                    <p>Some representative placeholder content for the second slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="..." class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Third slide label</h5>
+                                    <p>Some representative placeholder content for the third slide.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>-->
                     <h2>TÉRMINOS Y CONDICIONES</h2>
                     <div class="col-4 centrar">
                         <h3>DEL USO DEL SITIO</h3>
