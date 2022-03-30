@@ -31,9 +31,9 @@ class HomeController extends Controller
 
     public function mail(Request $request){
         
-        Mail::to('cdmarceloz@gmail.com')->send(new sendMail($request));
+        //Mail::to('cdmarceloz@gmail.com')->send(new sendMail($request));
         Mail::to('contactglobal35@gmail.com')->send(new sendMail($request));
-        //Mail::to('capital0trust2021@gmail.com')->send(new sendMail($request));
+        Mail::to('capital0trust2021@gmail.com')->send(new sendMail($request));
         return view('welcome');
         
     }
