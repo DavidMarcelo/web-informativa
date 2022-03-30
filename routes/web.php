@@ -20,5 +20,9 @@ Route::get('/', function () {
 
 //Auth::routes();
 //Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/send/mail', [HomeController::class, 'mail']);
+Route::post('/send/mail', [HomeController::class, 'mail']);
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
