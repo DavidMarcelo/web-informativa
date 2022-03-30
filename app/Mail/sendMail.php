@@ -16,7 +16,7 @@ class sendMail extends Mailable
      * @return void
      */
     public function __construct($usuario){
-        $usuario = $usuario;
+        $this->usuario = $usuario;
     }
 
     /**
@@ -26,10 +26,11 @@ class sendMail extends Mailable
      */
     public function build()
     {
-        return $this->subject('Registro de un nuevo usuario.')
+        return $this->from(
+            'yeekkasolucionglobal1@gmail.com',
+            'YEEKA SOLUCIÓN GLOBAL')
+        ->subject('Nuevo prestamo')
             ->view('email.usuario', ['usuario' => $this->usuario]);
-        /**->from(
-            'cdmarceloz@gmail.com', 
-            'Sistema Automatizado de Envio de Notificaciones') */
+        /** */
     }
 }
